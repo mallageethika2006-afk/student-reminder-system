@@ -145,3 +145,27 @@ background:linear-gradient(135deg,#11998e,#38ef7d);
 background-color:#f3f3ff;
 transition:0.3s;
 }
+body{
+background: linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+min-height:100vh;
+color:white;
+font-family: 'Segoe UI', sans-serif;
+}
+.card{
+background: rgba(255,255,255,0.08);
+border-radius:15px;
+backdrop-filter: blur(10px);
+border:1px solid rgba(255,255,255,0.1);
+color:white;
+}
+.table{
+color:white;
+}
+
+.table thead{
+background:rgba(255,255,255,0.1);
+}
+
+.table-hover tbody tr:hover{
+background:rgba(255,255,255,0.08);
+}
